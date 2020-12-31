@@ -3,7 +3,7 @@ def find_max_value(array)
   
   x = 0
   ans = array[0]
-  array.legth.times do 
+  array.length.times do 
     if ans < array[x]
       ans = array[x]
     end
